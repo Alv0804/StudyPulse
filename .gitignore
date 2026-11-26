@@ -1,0 +1,30 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# Python caches & packaging artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+release_local/
+*.spec
+sitecustomize.py
+
+# Local runtime databases & user uploads
+*.db
+*.sqlite
+*.sqlite3
+materials/
+
+# Archives & documentation binaries not used by the app
+*.zip
+*.docx
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
